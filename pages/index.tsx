@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Hero from "@/Components/Hero";
 import About from '@/Components/About';
 import Services from '@/Components/Services';
+import Skils from '@/Components/Skils';
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -23,6 +24,8 @@ const HomePage = () => {
           <div>
             {/* services */}
             <Services />
+            {/* Skils */}
+            <Skils />
           </div>
         </div>
       </div>
