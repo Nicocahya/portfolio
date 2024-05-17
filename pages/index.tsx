@@ -1,6 +1,8 @@
 import MobileNav from '@/Components/MobileNav';
 import Nav from '@/Components/Nav'
-import React, { useState } from 'react'
+import { useState } from 'react'
+import Hero from "@/Components/Hero";
+import About from "@/Components/About";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -13,6 +15,7 @@ const HomePage = () => {
         <MobileNav nav={nav} closeNav={closeNav}/>
         <Nav openNav={openNav} />
         {/* hero section */}
+        <Hero />
       </div>
     </div>
   )
