@@ -7,6 +7,7 @@ import Services from '@/Components/Services';
 import Skils from '@/Components/Skils';
 import Projects from '@/Components/Projects';
 import Testimonial from '@/Components/Testimonial';
+import Blog from '@/Components/Blog';
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -32,6 +33,8 @@ const HomePage = () => {
             <Projects />
             {/* Testimonial */}
             <Testimonial />
+            {/* Blog */}
+            <Blog />
           </div>
         </div>
       </div>
