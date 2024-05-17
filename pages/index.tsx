@@ -3,6 +3,7 @@ import Nav from '@/Components/Nav'
 import { useState } from 'react'
 import Hero from "@/Components/Hero";
 import About from '@/Components/About';
+import Services from '@/Components/Services';
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -19,6 +20,10 @@ const HomePage = () => {
         <div className='relative z-[30]'>
           {/* About */}
           <About />
+          <div>
+            {/* services */}
+            <Services />
+          </div>
         </div>
       </div>
     </div>
