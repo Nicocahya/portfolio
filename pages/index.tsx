@@ -8,11 +8,15 @@ import Skils from '@/Components/Skils';
 import Projects from '@/Components/Projects';
 import Testimonial from '@/Components/Testimonial';
 import Blog from '@/Components/Blog';
+import Footer from '@/Components/Footer';
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
   const openNav = () => setNav(true);
   const closeNav = () => setNav(false);
+
+// animation ads setup
+
   return (
     <div className="overflow-x-hidden">
       <div>
@@ -35,6 +39,8 @@ const HomePage = () => {
             <Testimonial />
             {/* Blog */}
             <Blog />
+            {/* footer */}
+            <Footer />
           </div>
         </div>
       </div>
