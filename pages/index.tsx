@@ -55,23 +55,37 @@ AOS.init({
         <MobileNav nav={nav} closeNav={closeNav}/>
         <Nav openNav={openNav} />
         {/* hero section */}
-        <Hero />
+        <div id="home">
+          <Hero />
+        </div>
+
         <div className='relative z-[30]'>
           {/* About */}
-          <About />
+          <div id="about">
+            <About />
+          </div>
           <div>
             {/* services */}
+            <div id="service">
             <Services />
+          </div>
             {/* Skils */}
+            <div id='skils'>
             <Skils />
+            </div>
             {/* Projects */}
+            <div id="project">
             <Projects />
+          </div>
             {/* Testimonial */}
             <Testimonial />
             {/* Blog */}
+            <div id="blog">
             <Blog />
-            {/* footer */}
+          </div>
+          <div id="contact">
             <Footer />
+          </div>
           </div>
         </div>
       </div>
